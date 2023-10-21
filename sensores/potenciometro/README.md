@@ -1,25 +1,6 @@
-<style>
-    body{
-        background-color : black !important;    
-        color:white !important;
-        font-family:'Hack Nerd Fonts', sans-serif;
-        
-        }
-    h1,h2,h3,h4,h5,h6{
-        color:#ffffff !important;
-        font-family:'Hack Nerd Fonts';
-        }
-    @font-face{
-      font-family:'Hack Nerd Fonts';
-      src: url('assets/HackNerdFont-Regular.ttf') format('truetype');
-    }
-</style>
-
-<h1 style="font-family: 'Hack Nerd Fonts'"><h1>
 
 # Potenciómetro
 - El potenciómetro nos proporciona una resistencia variable según vayamos modificando su posición
-<br>
 - si está totalmente cerrado obtendremos como salida el máximo voltaje(el de entrada), si lo tenemos totalmente abierto, obtendremos 0 voltios y si lo tenemos en una posición intermedia obtendremos una fracción del voltaje de entrada proporcional a la posicíon en la que se encuentre.
 Este comportamiento se llama divisor de tensíon
 
@@ -34,14 +15,19 @@ Normalmente tienen 3 conexiones:
 * Fuente de alimentacíon
 * Tierra [GND]
 * Salida 
+<br>
+<br>
  
 _Esquema de conexiones_
-<p aling="center">
-<img src="/assets/image.png" height="300" width="600"</p>
+<p align="center">
+<img src="https://github.com/JereC4str0/Learning-Arduino-ESP8266/blob/main/sensores/potenciometro/assets/image.png" height="300" width="600"</p>
 
-<p aling="center">
-<img src="/assets/photo.jpg" height="300" width="600" >
+<p align="center">
+<img src="https://github.com/JereC4str0/Learning-Arduino-ESP8266/blob/main/sensores/potenciometro/assets/photo.jpg" height="300" width="600" >
 </p>
+
+<br>
+<br>
 
 ## Métodos
 
